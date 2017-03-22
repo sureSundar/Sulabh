@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: Sulabh
+  host: Sulabh
+  disk_quota: 1024M
+  services:
+  - SulabhAPIOS
+  - Mobile Analytics-ar
+  - sulabh
+  - SulabhAndroidPush
